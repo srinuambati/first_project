@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_rHWcUBcOEeiqMZ7MqaxUIQ" name="oracle_connection" id="_d2MIQBcOEeiqMZ7MqaxUIQ" label="oracle_connection" dataPackage="_rRXT8BcOEeiqMZ7MqaxUIQ _rRZwMBcOEeiqMZ7MqaxUIQ _rRZwMRcOEeiqMZ7MqaxUIQ _rRZwMhcOEeiqMZ7MqaxUIQ _rRZwMxcOEeiqMZ7MqaxUIQ _rRZwNBcOEeiqMZ7MqaxUIQ _rRZwNRcOEeiqMZ7MqaxUIQ _rRZwNhcOEeiqMZ7MqaxUIQ _rRZwNxcOEeiqMZ7MqaxUIQ _rRZwOBcOEeiqMZ7MqaxUIQ _rRZwORcOEeiqMZ7MqaxUIQ _rRZwOhcOEeiqMZ7MqaxUIQ _rRZwOxcOEeiqMZ7MqaxUIQ _rRZwPBcOEeiqMZ7MqaxUIQ _rRZwPRcOEeiqMZ7MqaxUIQ _rRZwPhcOEeiqMZ7MqaxUIQ" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=localhost)(port=1521))(connect_data=(service_name=xe)))" dbVersionString="ORACLE_12" Port="1521" Username="system" Password="RX/CTwlUNiA=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="xe" SqlSynthax="SQL Syntax" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_rHZfoBcOEeiqMZ7MqaxUIQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_rIdPkBcOEeiqMZ7MqaxUIQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_rI1qEBcOEeiqMZ7MqaxUIQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_rI1qERcOEeiqMZ7MqaxUIQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_rI1qEhcOEeiqMZ7MqaxUIQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_rI1qExcOEeiqMZ7MqaxUIQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_rI1qFBcOEeiqMZ7MqaxUIQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_rI1qFRcOEeiqMZ7MqaxUIQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_rJZDsBcOEeiqMZ7MqaxUIQ" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_rJZqwBcOEeiqMZ7MqaxUIQ" tag="DB ProductVersion" value="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production"/>
+    <taggedValue xmi:id="_rJZqwRcOEeiqMZ7MqaxUIQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_rHZfoRcOEeiqMZ7MqaxUIQ" key="CONN_PARA_KEY_USERNAME" value="system"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRXT8BcOEeiqMZ7MqaxUIQ" name="ANONYMOUS" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwMBcOEeiqMZ7MqaxUIQ" name="APEX_040000" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwMRcOEeiqMZ7MqaxUIQ" name="APEX_PUBLIC_USER" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwMhcOEeiqMZ7MqaxUIQ" name="APPQOSSYS" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwMxcOEeiqMZ7MqaxUIQ" name="CTXSYS" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwNBcOEeiqMZ7MqaxUIQ" name="DBSNMP" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwNRcOEeiqMZ7MqaxUIQ" name="DIP" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwNhcOEeiqMZ7MqaxUIQ" name="FLOWS_FILES" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwNxcOEeiqMZ7MqaxUIQ" name="HR" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwOBcOEeiqMZ7MqaxUIQ" name="MDSYS" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwORcOEeiqMZ7MqaxUIQ" name="ORACLE_OCM" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwOhcOEeiqMZ7MqaxUIQ" name="OUTLN" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwOxcOEeiqMZ7MqaxUIQ" name="SYS" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwPBcOEeiqMZ7MqaxUIQ" name="SYSTEM" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwPRcOEeiqMZ7MqaxUIQ" name="XDB" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_rRZwPhcOEeiqMZ7MqaxUIQ" name="XS$NULL" dataManager="_rHWcUBcOEeiqMZ7MqaxUIQ"/>
+</xmi:XMI>
